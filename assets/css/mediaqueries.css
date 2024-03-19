@@ -165,15 +165,7 @@ padding: 2rem;
         grid-column: auto;
         grid-row: auto;
     }
-    
 
-#clothes,
-#fashion,
-#informacion,
-#products,
-  #contacto {
-    margin: 100px 0px;
-}
 
 
     .caja-login,
