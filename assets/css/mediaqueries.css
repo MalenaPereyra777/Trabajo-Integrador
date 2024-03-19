@@ -1,6 +1,14 @@
  
  @media (max-width: 992px) {
-
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style-type: none;
+        font-family: "poppins";
+        align-items: center;
+    }
 
     .navbar {
         gap: 10px;
@@ -99,6 +107,8 @@ padding: 2rem;
 
 
 @media (max-width: 576px) {
+
+
 
 .navbar {
     width: 100%;
