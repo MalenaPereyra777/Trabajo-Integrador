@@ -1,0 +1,182 @@
+ 
+ @media (max-width: 992px) {
+
+
+    .navbar {
+        gap: 10px;
+    }
+
+    .cart-icon {
+        height: 33px;
+        margin-right: 0rem;
+        margin-top: 4px;
+    }
+
+    .navbar-list {
+        position: absolute;
+        top: 65px;
+        left: 5%;
+        right: 5%;
+        width: 98%;
+        flex-direction: column;
+        background-color: var(--text);
+        border-radius: 0 0 15px 15px;
+        align-items: flex-start;
+        padding: 45px 20px;
+        gap: 25px;
+        z-index: 2;
+        display: none;
+    }
+
+    .navbar-list a {
+        font-size: 18px;
+    }
+
+    .menu-label {
+        display: flex;
+        order: 2;
+        cursor: pointer;
+    }
+
+    .menu-icon {
+        height: 50px;
+        width: 50px;
+    }
+
+    #menu-toggle:checked + .navbar-list {
+        display: flex;
+    }
+
+
+.clothes-info {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.clothes-info h1 {
+    width: 90%;
+    max-width: 500px;
+    min-width: unset;
+}
+
+.clothes-info p {
+    width: 60%;
+    max-width: 600px;
+}
+
+#summer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    width: 100%;
+} 
+
+.summer-container {
+    display: grid;
+    grid-template-columns: 350px 300px;
+    grid-auto-rows: 200px;
+    gap: 15px;
+place-content: center;
+padding: 2rem;
+}
+
+.imagen-grid {
+    border-radius: 1rem;
+}
+
+.imagen-grid:nth-child(odd),
+.imagen-grid:nth-child(even){
+    grid-column: auto;
+    grid-row: auto;
+}
+
+}
+
+
+@media (max-width: 576px) {
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+    .cart {
+        left: 0;
+        width: 100%;
+        border: none;
+    }
+
+    .cart-item {
+        flex-wrap: wrap;
+    }
+
+    .clothes-info p {
+        width: 70%;
+        max-width: unset;
+    }
+
+    .clothes-card,
+    .fashion-card {
+        width: 100%;
+        height: 350px;
+        justify-content: center;
+        display: none;
+    }
+    
+
+    .outfit img {
+        width: 300px;
+    }
+
+    #summer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0px;
+        width: 100%;
+    } 
+
+    .summer-container {
+        display: grid;
+        grid-template-columns: 350px;
+        grid-auto-rows: 200px;
+        gap: 15px;
+    place-content: center;
+    padding: 2rem;
+    }
+
+    .imagen-grid {
+        border-radius: 1rem;
+    }
+
+    .imagen-grid:nth-child(odd),
+    .imagen-grid:nth-child(even){
+        grid-column: auto;
+        grid-row: auto;
+    }
+    
+
+
+    .caja-login,
+.caja-singin {
+ display: flex;
+ flex-direction: column;
+ background-color: var(--text-white);
+ box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+ border-radius: 15px;
+ padding: 10px;
+ height: 650px;
+ width: 400px;
+}
+
+
+}
+
+
