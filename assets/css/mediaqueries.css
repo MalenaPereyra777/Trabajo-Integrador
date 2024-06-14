@@ -96,6 +96,11 @@ padding: 2rem;
     grid-row: auto;
 }
 
+.caja-singin,
+.caja-login {
+    width: 800px;
+}
+
 }
 
 
@@ -178,16 +183,17 @@ padding: 2rem;
     flex-wrap: wrap;
 }
 
+
     .caja-login,
 .caja-singin {
  display: flex;
  flex-direction: column;
+ justify-content: center;
  background-color: var(--text-white);
  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
  border-radius: 15px;
- padding: 10px;
- height: 650px;
  width: 400px;
+ height: 700px;
 } 
 }
 
@@ -225,11 +231,15 @@ padding: 2rem;
     }
 
 
-    
+    .caja-singin img,
+    .caja-login img {
+      display: none;
+    }
 
+    .caja-singin,
+    .caja-login {
+        height: 500px;
+        width: 350px;
+        padding: 10px;
+    }
 }
-
-
-
-
-
