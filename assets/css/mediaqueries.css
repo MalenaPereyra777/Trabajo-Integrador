@@ -1,6 +1,4 @@
-
-
- @media (max-width: 992px) {
+@media (max-width: 1024px) {
    
 
     .navbar {
@@ -58,7 +56,7 @@
 }
 
 .clothes-info h1 {
-    width: 90%;
+    width: 70%;
     max-width: 500px;
     min-width: unset;
 }
@@ -68,12 +66,16 @@
     max-width: 600px;
 }
 
+#informacion {
+    margin-left: 70px;
+}
+
 #summer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 40px 0px;
+    margin-left: 90px;
     width: 100%;
 } 
 
@@ -101,18 +103,22 @@ padding: 2rem;
     width: 800px;
 }
 
+.formulario-login input,
+.formulario-singin input {
+    width: 290px;
+}
+
 }
 
 
-@media (max-width: 770px) {
+@media (max-width: 845px) {
 
-    
-
-.navbar {
-    width: 100%;
-    display: flex;
-    justify-content:space-evenly;
-}
+    .clothes-info,
+    .info-cards-container,
+    .footer-links {
+        margin-left: 40px;
+        padding: none;
+    }
 
     .cart {
         left: 0;
@@ -132,10 +138,11 @@ padding: 2rem;
 
     .clothes-card,
     .fashion-card {
-        width: 100%;
-        height: 350px;
-        justify-content: center;
         display: none;
+    }
+
+    #informacion {
+        margin-left: 10px;
     }
     
     .info-card {
@@ -153,7 +160,7 @@ padding: 2rem;
         justify-content: center;
         align-items: center;
         padding: 40px 0px;
-        margin: 50px 0px;
+        margin-left: 40px;
         width: 100%;
     } 
 
@@ -164,7 +171,18 @@ padding: 2rem;
         gap: 15px;
     place-content: center;
     padding: 2rem;
-    }
+}
+
+#products,
+#fashion,
+#contacto {
+    margin-left: 40px;
+}
+
+.fashion-info p {
+    width: 120%;
+}
+
 
     .imagen-grid {
         border-radius: 1rem;
@@ -193,29 +211,178 @@ padding: 2rem;
  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
  border-radius: 15px;
  width: 400px;
- height: 700px;
+ height: 800px;
 } 
 }
 
-@media (max-width: 400px){
+@media (max-width: 660px){
+
 
     .clothes-info,
     .info-cards-container,
     .footer-links {
         margin-left: 80px;
-        padding: none;
+    }
+
+    .clothes-info h1, 
+    .clothes-info p {
+        width: 100%;
+    }
+
+
+ .clothes-card,
+    .fashion-card {
+        display: none;
+    }
+
+
+    .fashion-info p {
+        font-size: 16px;
+        width: 130%;
+        margin-left: 40px;
+    }
+
+#informacion {
+   margin-right: 5px;
+}
+
+    #summer,
+    #products,
+    #fashion,
+    #contacto {
+        margin-left: 55px;
+    }
+
+
+    .products-container{
+        margin-left: 20px;
+    }
+
+    .fashion-info h2 {
+        margin-left: 150px;
+    }
+
+    .summer-container{
+        margin-left: 30px;
+    }
+
+    .btn-load {
+       margin-left: 10px;
+    }
+
+    .caja-singin img,
+    .caja-login img {
+      display: none;
+    }
+
+    .caja-singin,
+    .caja-login {
+        height: 390px;
+        width: 350px;
+        padding: 10px;
+    }
+
+    .formulario-login input,
+    .formulario-singin input {
+        width: 320px;
+    }
+}
+
+
+@media (max-width: 560px){
+
+
+    .clothes-info,
+    .info-cards-container,
+    .footer-links {
+        margin-left: 210px;
+    }
+
+    .clothes-info h1, 
+    .clothes-info p {
+        width: 160%;
+    }
+
+
+ .clothes-card,
+    .fashion-card {
+        display: none;
+    }
+
+
+    .fashion-info p {
+        font-size: 16px;
+        width: 130%;
+        margin-left: 40px;
     }
 
     #summer,
     #products,
     #fashion,
     #contacto {
-        margin-left: 75px;
+        margin-left: 190px;
     }
 
-    .categories {
-        flex-wrap: wrap;
+
+    .products-container{
+        margin-left: 20px;
+    }
+
+    .fashion-info h2 {
+        margin-left: 150px;
+    }
+
+    .summer-container{
+        margin-left: 30px;
+    }
+
+    .btn-load {
+       margin-left: 20px;
+    }
+
+    .caja-singin img,
+    .caja-login img {
+      display: none;
+    }
+}
+
+@media (max-width: 440px){
+
+
+    .clothes-info,
+    .info-cards-container,
+    .footer-links {
+        margin-left: 330px;
+    }
+
+    .clothes-info h1, 
+    .clothes-info p {
+        width: 130%;
+    }
+
+
+ .clothes-card,
+    .fashion-card {
+        display: none;
+    }
+
+
+    .fashion-info p {
+        font-size: 14px;
+        width: 130%;
         margin-left: 40px;
+    }
+
+    #summer,
+    #products,
+    #fashion,
+    #contacto {
+        margin-left: 330px;
+    }
+
+
+    .categories {
+        flex-wrap:wrap;
     }
 
     .products-container{
@@ -230,16 +397,75 @@ padding: 2rem;
         margin-left: 30px;
     }
 
-
-    .caja-singin img,
-    .caja-login img {
-      display: none;
+    .btn-load {
+       margin-left: 20px;
     }
 
-    .caja-singin,
     .caja-login {
-        height: 500px;
-        width: 350px;
+        height: 360px;
+        width: 270px;
         padding: 10px;
+    }
+
+    .caja-singin {
+        height: 440px;
+        width: 230px;
+    }
+
+    .formulario-login input {
+        width: 250px;
+    }
+
+    .formulario-singin input {
+        width: 200px;
+    }
+}
+
+@media (max-width: 280px){
+
+    .clothes-info,
+    .info-cards-container,
+    .footer-links {
+        margin-left: 400px;
+    }
+
+    #summer,
+    #products,
+    #fashion,
+    #contacto {
+        margin-left: 400px;
+    }
+
+    .caja-login {
+        height: 300px;
+        width: 150px;
+        padding: 10px;
+    }
+
+    .caja-singin {
+        height: 390px;
+        width: 140px;
+        padding: 8px;
+    }
+
+    .formulario-login h2,
+    .formulario-singin h2 {
+        font-size: 16px;
+    }
+
+    .formulario-login span, 
+    .formulario-singin span {
+        font-size: 12px;
+    }
+
+    .formulario-login input,
+    .formulario-singin input {
+        width: 120px;
+        padding: 5px;
+    }
+
+    .formulario-login a,
+    .formulario-singin a {
+        padding: 3px;
     }
 }
