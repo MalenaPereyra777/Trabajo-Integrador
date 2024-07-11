@@ -231,13 +231,14 @@ main{
 }
 
 .clothes-info a {
-    color: var(--text-white);
+    color: var(--text);
     background-color:var(--color);
     width: 120px;
     padding: 8px 0;
     border-radius: 10px;
     text-align: center;
     font-size: 14px;
+    font-weight: 600;
 }
 
 .clothes-card {
@@ -469,11 +470,12 @@ main{
 }
 
 .category {
+    color: var(--text);
     background-color: var(--color);
+    font-weight: 500;
     border: none;
     padding: 10px 15px;
     border-radius: 10px;
-    color: var(--text-white);
     cursor: pointer;
     text-transform: uppercase;
 }
@@ -538,10 +540,11 @@ main{
  .btn-load {
     border-radius: 10px;
     padding: 10px 35px;
-    background: rgb(255,192,203);
+    background: var(--color);
     border: none;
-    color: var(--text-white);
+    color: var(--text);
     cursor: pointer;
+    font-weight: 700;
  }
 
 #contacto {
@@ -644,10 +647,11 @@ main{
     border-radius: 10px;
     text-align: center;
     padding: 10px 35px;
-    background: rgb(255,192,203);
+    background: var(--color);
     border: none;
-    color: var(--text-white);
+    color: var(--text);
     cursor: pointer;
+    font-weight: 700;
 }
 
 
