@@ -362,7 +362,7 @@ padding: 2rem;
     #products,
     #fashion,
     #contacto {
-        margin-left: 240px;
+        margin-left: 250px;
     }
 
 
@@ -374,9 +374,7 @@ padding: 2rem;
         margin-left: 20px;
     }
 
-    .fashion-info h2 {
-        margin-left: 150px;
-    }
+
 
     .summer-container{
         margin-left: 30px;
@@ -425,6 +423,8 @@ padding: 2rem;
     #contacto {
         margin-left: 340px;
     }
+
+
 }
 
 @media (max-width: 300px){
