@@ -1,5 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "poppins";
+}
+
+
 @media (max-width: 1025px) {
-   
+
+    body {
+        min-height: 100vh;
+        max-width: 1000px;
+        margin: 0;
+    }
 
     .navbar {
         gap: 10px;
@@ -16,7 +31,7 @@
         top: 65px;
         left: 5%;
         right: 5%;
-        width: 98%;
+        width: 95%;
         flex-direction: column;
         background-color: var(--text);
         border-radius: 0 0 15px 15px;
@@ -120,6 +135,12 @@ padding: 2rem;
 
 
 @media (max-width: 845px) {
+
+    body {
+        min-height: 100vh;
+        max-width: 800px;
+        margin: 0;
+    }
 
     .clothes-info,
     .info-cards-container,
@@ -226,6 +247,12 @@ padding: 2rem;
 
 @media (max-width: 660px){
 
+    body {
+        min-height: 100vh;
+        max-width: 600px;
+        margin: 0;
+    }
+
 
     .clothes-info,
     .info-cards-container,
@@ -299,6 +326,11 @@ padding: 2rem;
 
 @media (max-width: 560px){
 
+    body {
+        min-height: 100vh;
+        max-width: 500px;
+        margin: 0;
+    }
 
     .clothes-info,
     .info-cards-container,
@@ -330,6 +362,11 @@ padding: 2rem;
 
 @media (max-width: 445px){
 
+    body {
+        min-height: 100vh;
+        max-width: 420px;
+        margin: 0;
+    }
 
     .clothes-info,
     .info-cards-container,
@@ -406,6 +443,13 @@ padding: 2rem;
 
 
 @media (max-width: 378px){
+
+    body {
+        min-height: 100vh;
+        max-width: 350px;
+        margin: 0;
+    }
+
     .clothes-info,
     .info-cards-container,
     .footer-links {
@@ -428,6 +472,12 @@ padding: 2rem;
 }
 
 @media (max-width: 300px){
+
+    body {
+        min-height: 100vh;
+        max-width: 200px;
+        margin: 0;
+    }
 
     .clothes-info,
     .info-cards-container,
