@@ -461,6 +461,10 @@ padding: 1rem;
         font-size: 20px;
     }
 
+    .imagen-grid {
+        margin-left: 8px;
+    }
+
     #products,
     #fashion,
     #contacto {
